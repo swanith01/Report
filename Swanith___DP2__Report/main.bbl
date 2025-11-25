@@ -1,0 +1,133 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{{Alvarez}}{{Alvarez}}{2016}]{Alvarez2016}
+{Alvarez} M.~A.,  2016, \mn@doi [Astrophysical Journal]
+  {10.3847/0004-637X/824/2/118}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016ApJ...824..118A} {824, 118}
+
+\bibitem[\protect\citeauthoryear{Benson et~al.}{Benson
+  et~al.}{2014}]{BensonBA_2013}
+Benson B.~A.,  et~al., 2014, preprint (\mn@eprint {arXiv} {1407.2973})
+
+\bibitem[\protect\citeauthoryear{{Birkinshaw}}{{Birkinshaw}}{1999}]{Birkinshaw1999}
+{Birkinshaw} M.,  1999, \mn@doi [Physics Reports]
+  {10.1016/S0370-1573(98)00080-5}, \href
+  {https://ui.adsabs.harvard.edu/abs/1999PhR...310...97B} {310, 97}
+
+\bibitem[\protect\citeauthoryear{Collaboration, Ade  et~al.}{Collaboration
+  et~al.}{2014}]{Ade_2013}
+Collaboration P.,  Ade P. A.~R.,   et~al., 2014, \mn@doi [Astronomy &
+  Astrophysics] {10.1051/0004-6361/201321591}, 571, A16
+
+\bibitem[\protect\citeauthoryear{Collaboration, Adam  et~al.}{Collaboration
+  et~al.}{2016}]{Adam_2016}
+Collaboration P.,  Adam R.,   et~al., 2016, \mn@doi [Astronomy & Astrophysics]
+  {10.1051/0004-6361/201629011}, 596, A108
+
+\bibitem[\protect\citeauthoryear{Dunkley et~al.,}{Dunkley
+  et~al.}{2011}]{Dunkley_2011}
+Dunkley J.,  et~al., 2011, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/739/1/52}, 739, 52
+
+\bibitem[\protect\citeauthoryear{{Dunkley} et~al.,}{{Dunkley}
+  et~al.}{2013}]{Dunkley_2013}
+{Dunkley} J.,  et~al., 2013, \mn@doi [Journal of Cosmology and Astroparticle
+  Physics] {10.1088/1475-7516/2013/07/025}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013JCAP...07..025D} {2013, 025}
+
+\bibitem[\protect\citeauthoryear{George, Reichardt, Aird, Benson, Bleem
+  et~al.}{George et~al.}{2015}]{George_2015}
+George E.~M.,  Reichardt C.~L.,  Aird K.~A.,  Benson B.~A.,  Bleem L.~E.,
+  et~al., 2015, \mn@doi [Astrophysical Journal] {10.1088/0004-637X/799/2/177},
+  799, 177
+
+\bibitem[\protect\citeauthoryear{Hall et~al.,}{Hall et~al.}{2010}]{Hall_2010}
+Hall N.~R.,  et~al., 2010, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/718/2/632}, 718, 632
+
+\bibitem[\protect\citeauthoryear{{Kaiser}}{{Kaiser}}{1992}]{NickKaiser1992}
+{Kaiser} N.,  1992, \mn@doi [Astrophysical Journal] {10.1086/171151}, \href
+  {https://ui.adsabs.harvard.edu/abs/1992ApJ...388..272K} {388, 272}
+
+\bibitem[\protect\citeauthoryear{{Larson} et~al.,}{{Larson}
+  et~al.}{2011}]{Larson_2011}
+{Larson} D.,  et~al., 2011, \mn@doi [Astrophysical Journal Supplement Series]
+  {10.1088/0067-0049/192/2/16}, \href
+  {https://ui.adsabs.harvard.edu/abs/2011ApJS..192...16L} {192, 16}
+
+\bibitem[\protect\citeauthoryear{Lueker et~al.,}{Lueker
+  et~al.}{2010}]{Lueker_2010}
+Lueker M.,  et~al., 2010, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/719/2/1045}, 719, 1045
+
+\bibitem[\protect\citeauthoryear{{Park}, {Shapiro}, {Komatsu}, {Iliev}, {Ahn}
+  \& {Mellema}}{{Park} et~al.}{2013}]{Park-et-al2013}
+{Park} H.,  {Shapiro} P.~R.,  {Komatsu} E.,  {Iliev} I.~T.,  {Ahn} K.,
+  {Mellema} G.,  2013, \mn@doi [Astrophysical Journal]
+  {10.1088/0004-637X/769/2/93}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013ApJ...769...93P} {769, 93}
+
+\bibitem[\protect\citeauthoryear{{Reichardt} et~al.,}{{Reichardt}
+  et~al.}{2012}]{Reichardt_2012}
+{Reichardt} C.~L.,  et~al., 2012, \mn@doi [Astrophysical Journal]
+  {10.1088/0004-637X/755/1/70}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012ApJ...755...70R} {755, 70}
+
+\bibitem[\protect\citeauthoryear{{Rodriguez}, {Kusiak}, {Pandey}  \&
+  {Hill}}{{Rodriguez} et~al.}{2025}]{RodriguezKusiakPAndeyHill2025Preprint}
+{Rodriguez} M.~J.,  {Kusiak} A.,  {Pandey} S.,   {Hill} J.~C.,  2025, \mn@doi
+  [arXiv e-prints] {10.48550/arXiv.2509.03458}, \href
+  {https://ui.adsabs.harvard.edu/abs/2025arXiv250903458R} {p. arXiv:2509.03458}
+
+\bibitem[\protect\citeauthoryear{Sehgal, Bode, Das, Hernandez-Monteagudo,
+  Huffenberger, Lin, Ostriker  \& Trac}{Sehgal et~al.}{2010}]{Sehgal_2010}
+Sehgal N.,  Bode P.,  Das S.,  Hernandez-Monteagudo C.,  Huffenberger K.,  Lin
+  Y.-T.,  Ostriker J.~P.,   Trac H.,  2010, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/709/2/920}, 709, 920
+
+\bibitem[\protect\citeauthoryear{Shaw, Nagai, Bhattacharya  \& Lau}{Shaw
+  et~al.}{2010}]{Shaw_2010}
+Shaw L.~D.,  Nagai D.,  Bhattacharya S.,   Lau E.~T.,  2010, \mn@doi [The
+  Astrophysical Journal] {10.1088/0004-637X/725/2/1452}, 725, 1452
+
+\bibitem[\protect\citeauthoryear{{Shaw}, {Rudd}  \& {Nagai}}{{Shaw}
+  et~al.}{2012}]{Shaw_2012}
+{Shaw} L.~D.,  {Rudd} D.~H.,   {Nagai} D.,  2012, \mn@doi [Astrophysical
+  Journal] {10.1088/0004-637X/756/1/15}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012ApJ...756...15S} {756, 15}
+
+\bibitem[\protect\citeauthoryear{{Shirokoff} et~al.,}{{Shirokoff}
+  et~al.}{2011}]{Shirkoff_2011}
+{Shirokoff} E.,  et~al., 2011, \mn@doi [Astrophysical Journal]
+  {10.1088/0004-637X/736/1/61}, \href
+  {https://ui.adsabs.harvard.edu/abs/2011ApJ...736...61S} {736, 61}
+
+\bibitem[\protect\citeauthoryear{{Sievers} et~al.,}{{Sievers}
+  et~al.}{2013}]{Sievers_2013}
+{Sievers} J.~L.,  et~al., 2013, \mn@doi [Journal of Cosmology and Astroparticle
+  Physics] {10.1088/1475-7516/2013/10/060}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013JCAP...10..060S} {2013, 060}
+
+\bibitem[\protect\citeauthoryear{Zahn et~al.,}{Zahn et~al.}{2012}]{Zahn_2012}
+Zahn O.,  et~al., 2012, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637X/756/1/65}, 756, 65
+
+\makeatother
+\end{thebibliography}

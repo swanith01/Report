@@ -1,0 +1,407 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{changepage}
+
+\usepackage{amsmath, amssymb, graphicx, float, textcomp, helvet, cancel}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkcolor = blue
+}
+\usepackage{setspace}
+
+\usepackage{multicol}
+\usepackage[numbers]{natbib}
+\bibliographystyle{mnras}
+
+% Hanging indent and spacing
+\setlength{\bibhang}{1.5em}
+\setlength{\bibsep}{0.5em}
+
+\setcounter{tocdepth}{1}
+
+\title{%
+  {\Large\bfseries The kSZ Effect : Insights into Strength and distribution of ionizers and Reionisation Morphology}\\[0.8ex]
+  {\large\itshape Departmental Project 2 - Report }%
+}
+
+\author{Swanith Upadhye \\ Project Supervisor: Prof. Girish Kulkarni}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract}
+
+\section{Introduction}
+    The CMB anisotropies on small scales $l > 10^3$ are in the regime of Silk damping. What this means is that, in this regime, the primary anisotropies are attenuated since this corresponds to the scales smaller than the mean free path of the CMB photons prior ({\color{red}not sure}) to recombination, where the photons are free to move and scramble any anisotropy signatures. On these scales, the CMB signal is dominated by foregrounds, most of which have a different spectrum than the blackbody one. Although there is one foreground which also has a blackbody spectrum, but at a different temperature. Its origins must also then be CMB photons, but how can we be so sure? The argument in its support is that no local astrophysical source can give a perfect blackbody spectrum, let alone be received isotropically by us, because the photons have to be in equilibrium with the matter present, in its path, over a range of wavelengths. So, the matter in question has to have a humongous optical depth at all frequencies. Such conditions were only present in cosmic history before recombination, owing to the densities required for such an equilibrium to be established between matter and radiation, and hence this foreground coming in from all directions with the blackbody spectra has to be of CMB origin.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{Images/kSZ_SED.pdf}
+        \caption{ https://ned.ipac.caltech.edu/level5/Birkinshaw/Birk6.html}
+    \end{figure}
+
+    As it turns out, these CMB photons are the ones scattered, via Thomson scattering, by the electron gas field that builds up after reionisation of the neutral gas after structure formation. Although these electrons, on average, have a number density of a single electron per meter cubed, they can be treated as a field when cosmic distances are in question. With $\tau$, the Thomson scattering optical depth of CMB photons to the reionised electron field being $~0.06-0.09$, fewer than $10\%$ of all the CMB photons are being altered, and contributing to this effect.
+
+    The temperature anisotropy this process builds up is of the form :
+    \begin{equation}
+        \frac{\triangle T}{T}| = \bar v .\hat n d\tau 
+    \end{equation}
+
+    where $\bar v$ is the bulk velocity of electrons, $\hat n$ is the Line of Sight (LOS) along which this anisotropy is measured, and $\text{d}\tau$ is the optical depth of the column element of this free electron field to CMB photons and is given by $n_e \sigma_T \text{d}l$ for $n_e$ being the number density of electrons per unit valoume in that column element,  $\sigma_T$ be the cross section for Thomson scattering of CMB photons with the electrons, and $\text{d} l$ is the small length of the column element considered.
+
+    The way to derive it is to consider a CMB photon in the moving electron's rest frame (with frequency $\nu'$) to be scattered from an incoming direction $\hat p$ to a direction $\hat p'$ which just happens to be along our line of sight, let's say. The radiative transfer equation suggests that the change in intensity of incoming photons upon Thomson scattering after moving a column element (of distance $\text{d} l$ with $\tau$ optical depth) is
+
+    \begin{equation}
+        \frac{dI_{\nu'}(\mu)}{d\tau} = \int_{-1}^1 d\mu_1 \phi(\mu,\mu1)[I_{\nu'}(\mu1)-I_{\nu'}(\mu)]
+    \end{equation}
+
+    which is just saying that change in intensity of photons along the LOS or the scattered direction ($\mu = cos \theta(\hat p',\bar v)$) is equal to the sum of intensities of the photons being scattered from all the directions, except $\hat p'$ into our LOS ($\hat p'$) mediated by the Thomson scattering kernel $\phi(\mu,\mu_1) =\frac{3}{8}(1+\mu_1^2)$ where $\mu_1 = \cos\theta(\hat p,\bar v)$ is the cosine of angle between all possible incoming directions $\hat p$ and the electron velocity (all in the elctron frame). This kernel is only valid under our LOS = $\hat p'$ (or $\mu=1$) assumption (otherwise the kernel expands to include various terms incorporating a LOS direction different than $\hat p'$, but the end result will be the same - so, that is a 'Without Loss of Generality' statement).
+
+    The kernel comes from polarisation considerations. It is just saying that for an unpolarised incoming, scatters by an angle $\theta$ then the polarisation perpendicular to the plane of (incidence and reflection) survives as it is (1/2 times the intensity), whereas the polarisation which is in the plane of scattering only survives with probability (1/2 cos$^2\theta$).
+    
+    \begin{equation}
+        \frac{dI_{\nu'}}{I_{\nu'}} = \tau \int _{-1}^1 \text{d}\mu_1 \frac{3}{8}(1+\mu_1^2)[\frac{I_{\nu'}(\mu_1)}{I_{\nu'}(\mu=1)} - 1]
+    \end{equation}
+    where we have just assumed that $\tau =d\tau$ is small and divided both sides of the above equation by $I_{\nu'}(\mu=1) =I_{\nu'}$, which we now substitute with the blackbody spectrum.
+
+    The fractional intensity change thus obtained is a Lorentz invariant because it's just the fraction of the total photons scattered. So when transformed back to the CMB frame with the appropriate Lorentz boost, we will obtain the intensity change in the required frame of the observer
+    
+    \begin{equation}
+        \Rightarrow \frac{dI_{\nu}}{I_{\nu}} = \tau \int _{-1}^1 \text{d}\mu_1 \frac{3}{8}(1+\mu_1^2)[\frac{e^x -1}{e^{x_2} - 1}-1] 
+    \end{equation}
+    where $x_2 = x/\gamma^2 \times (1+\beta)(1-\beta\mu_1)$ for going to the CMB frame, to the electron frame, back to the CMB frame {\color{red} IS an unclear transformation}. Here $\beta$ is the LOS component of $v/c$. $x_2$ might be the change in frequency after first transforming into the electron frame, giving the $\mu_1$ term, but then going back to the observer frame after scattering, respecting the $\mu=1$ term.
+
+    The exponential term in the square bracket becomes:
+    \begin{equation}
+        \begin{split}
+        \approx\frac{e^x-1}{e^{x(1+\beta(1-\mu_1))}-1} -1 ~, \text{neglecting O($\beta^2$) term}\\
+        \approx \frac{e^x-1}{e^x (1+x\beta(1-\mu_1))-1}-1\\
+        = \frac{1}{1+\frac{xe^x\beta(1-\mu_1)}{e^x-1}}-1 \\
+        \approx 1- \frac{xe^x}{e^x-1}\beta(1-\mu_1)-1 = -\frac{xe^x}{e^x-1}\beta(1-\mu_1)
+        \end{split}
+    \end{equation}
+
+    Now the integral becomes:
+    \begin{equation}
+        \int_{-1}^1 \frac{3}{8} (1+\mu_1^2)[-\frac{xe^x}{e^x -1}\beta(1-\mu_1)] = -\frac{3}{8}\frac{xe^x}{e^x-1}\beta\int_{-1}^1 (1+\mu_1^2-\cancel{\mu_1 -\mu_1^3}) d\mu_1  = -\frac{xe^x}{e^x-1}
+    \end{equation}
+
+    Hence, finally, equation 4 becomes:
+    \begin{equation}
+        \frac{\text d I_\nu}{I_\nu}\approx -\tau \beta \frac{xe^x}{e^x -1} ~ \text{for $\beta<<1$}
+    \end{equation}
+    which has been obtained by following the steps of \cite{Birkinshaw1999}
+    Now we show that such a form of fractional intensity change preserves the blackbody temperature.
+
+    Consider a blackbody just shifted by temperature $\triangle T$
+
+    \begin{equation}
+        B_\nu (T + \triangle T) \approx B_\nu(T) +\triangle T \frac{\partial B_\nu}{\partial T}
+    \end{equation}
+
+    The fractional change following the second term for $B_\nu = \frac{2h\nu^3}{c^2}(\exp(\frac{h\nu}{k_BT})-1)^{-1}$ becomes:
+    \begin{equation}
+        \frac{\triangle B_\nu}{B_\nu} \propto \frac{xe^x}{e^x-1} \frac{\triangle T}{T}
+    \end{equation}
+    Hence, showing that he fractional intensity change from the Doppler boosting corresponds to a shifted Blackbody temperature.
+
+    Now, substituting equation 7  in equation 9, we recover equation (1) for the temperature anisotropy via kSZ. Then, for non-infinitesimal $\tau$, the result will just be an integrated effect:
+    \begin{equation}
+        \frac{\triangle T}{T}(\hat n)|_{\text{kSZ}} = -\int d\tau \beta.\hat n
+    \end{equation}
+
+    This mechanism is known as the kinetic Sunyaev-Zeldovich (kSZ) effect, and although we have been referring to it as a foreground, it is emerging as a very useful probe of the nature of the Epoch of Reionization. 
+
+    To summarize this effect, we say that microscopically an electron that is moving at non-relativistic speed preferentially scatters some (previously isotropic - to the lowest order) CMB photons into or out of the direction of the LOS, increasing or decreasing the temperature (via increasing or decreasing their number density in this direction), thus generating directional temperature anisotropy. If the electrons were at rest, then the photons would scatter isotropically, and we would not detect any anisotropy to the lowest order (but E mode to the next higher order, as described just after this paragraph), accounting for the importance of the magnitude of the electron speed. The direction is obviously important since we want to know if preferentially photons come in or go out of our LOS, which, as can be guessed, is highly dependent on the bulk motion of electrons' direction. For non-relativistic bulk velocities, the recoil isn't accounted for, and that is a smaller-order effect called the tSZ (thermal Sunyaev-Zeldovich) effect. Therefore, in this picture, photons that collide head-on and those that graze/trail tail-on are not differentiated.
+    
+    
+    Considering primary CMB anisotropies would generate a polarisation to the lowest order, which is a smaller effect as compared to the Doppler boosting temperature anisotropy, since polarisation is a quadrupole as opposed to a dipole term. Primary CMB anisotropy when considered against a static electron field also generates $\tau_{\text{CMB}}$. 
+    
+    \begin{itemize}
+        \item Why is $\delta I_\nu/I_\nu$ a relativistic invariant
+\        \item Plot the power spectrum of CMB and kSZ at least
+        \item Insert a cartoon of all the scattering angles.
+        \subitem Problem due to angular aberration 
+        \subitem State that there are complications of higher-order correlations, some of which we explore in the theory section
+        \subitem Explore tSZ if possible
+
+        All available in SZ1980
+    \end{itemize}
+
+    \begin{figure}[H]
+        \includegraphics[scale =0.5]{Images/MaFry.png}
+        \caption{Ma and Fry PRL 2002}
+    \end{figure}
+    
+
+    Various other CMB-based foregrounds leave signatures distinct from the anisotropies imprinted on the Last Scattering Surfaces. These foregrounds are called Secondary CMB anisotropies. Some phenomena include gravitational lensing, which distorts the primary CMB upon being focused as it passes a gravitational lens of a galaxy in its path. The Integrated Sachs-Wolfe Effect and the Rees-Sciama effect, which are the Gravitational redshifting of the primary anisotropies along the line of sight due to changing background cosmology or encountering local gravitational wells, respectively. This last anisotropy is a little different in the sense that they leave signatures on the small scales $l \sim 10-100$({\color{red} Check}).
+    
+    
+     
+    
+    \section{Literature Review}
+
+    \subsection{Measurements Timeline}
+
+    \begin{itemize}
+        \item Plot the measurements' historic development
+    \end{itemize}
+
+    \begin{figure}[H]
+        \begin{center}
+        \includegraphics[scale =0.5]{Images/total_SZ_or_combo.pdf}
+        \caption{kSZ measurements timeline - total SZ}
+        \label{total_SZ_Measurements}
+        \end{center}
+    \end{figure}
+
+    \begin{figure}[H]
+        \begin{center}
+        \includegraphics[scale =0.5]{Images/patchy_homogeneous_kSZ.pdf}
+        \caption{patchy or homogeneous kSZ measurements timeline}
+        \label{kSZ_Measurements}
+        \end{center}
+    \end{figure}
+
+    \begin{figure}[H]
+        \begin{center}
+        \includegraphics[scale =0.5]{Images/tSZ_measurements.pdf}
+        \caption{tSZ measurements timeline}
+        \label{tSZ_Measurements}
+        \end{center}
+    \end{figure}
+
+    The figure illustrates the progression of kSZ measurements using the ground-based ACT and SPT instruments. These instruments, being ground-based, were designed to observe small-scale CMB anisotropies with high resolution, where secondary anisotropies dominate. In Figure~\ref{kSZ_Measurements}, we plot the total kSZ power spectrum at $l \sim 3000$, as well as estimates for homogeneous and patchy kSZ power at the same $l$. The quantity $D_l^{\text{tsz}} + 0.5 D_l^{\text{kSZ}}$ is also shown, reflecting the tSZ-kSZ degeneracy present in the data.
+
+    The first measurement was performed by the SPT team and reported by Lueker et al.~2010\cite{Lueker_2010}. They presented results based on SPT data collected at the project's inception in 2008, covering a field of view of 100~deg$^2$ and observing at 150 and 220~GHz. An overview of the instrument and team is available in \cite{BensonBA_2013} ({\color{red} We should check our notes with this paper}). They reported a total kSZ power of $D_{3000}^{\text{tsz}} + 0.5 D_{3000}^{\text{kSZ}} = 4.2 \pm 1.5~\mu\mathrm{K}^2$. The reason for this particular combination is related to the tSZ-kSZ degeneracy in the data, which we do not yet fully understand.
+    
+    In the same year, Hall et al.~\cite{Hall_2010} reported an upper limit of $D_{3000}^{\text{kSZ}} < 13~\mu\mathrm{K}^2$ using the same instrument. The difference in reported statistics between these two studies remains to be clarified.
+
+    The following year, the ACT team published their first kSZ measurement ({\color{red} not sure if it is the first measurement}) by Dunkley et al.~\cite{Dunkley_2011}, reporting a total kSZ power of $D_{3000}^{\text{tsz}} + D_{3000}^{\text{kSZ}} = 6.8 \pm 2.9~\mu\mathrm{K}^2$ at $l=3000$, using data from the first three ACT seasons (2007--2010), with a field of view of 296~deg$^2$ and frequencies of 148 and 218~GHz. Assuming $D_{3000}^{\text{tSZ}} = D_{3000}^{\text{kSZ}}$, they inferred a value of $8.2 \pm 2.9~\mu\mathrm{K}^2$. With a uniform prior on the tSZ-CIB correlation coefficient ($\xi = [0, 0.2]$), they reported an upper limit of $D_{3000}^{\text{kSZ}} < 8.6~\mu\mathrm{K}^2$ (95\% CL). These tSZ-CIB correlations are a foreground and have a similar dependence of $C_l$ on frequency as the kSZ effect, significantly impacting the inference of kSZ power. We will discuss this in more detail in later sections. Under the same prior, they estimated the tSZ power to be $D_{3000}^{\text{tSZ}} = 3.3 \pm 1.4~\mu\mathrm{K}^2$.
+
+    Also in 2011, the SPT team updated their measurements, as reported by Shirkoff et al.~\cite{Shirkoff_2011}, using the full 800~deg$^2$ of data collected between 2008 and 2011, at 150 and 220~GHz. They reported a total kSZ power of $D_{3000}^{\text{tsz}} + 0.5 D_{3000}^{\text{kSZ}} = 4.5 \pm 1.0~\mu\mathrm{K}^2$, and an upper limit of $D_{3000}^{\text{kSZ}} < 6.7~\mu\mathrm{K}^2$ (95\% CL). The tSZ power was estimated as $D_{3000}^{\text{tSZ}} = 4.38 \pm 0.53~\mu\mathrm{K}^2$ under the same prior.
+
+    In 2012, SPT reported two measurements. First, Reichardt et al.~\cite{Reichardt_2012} presented a 95\% CL upper limit on the kSZ power spectrum: $D_{3000}^{\text{kSZ}} < 2.8~\mu\mathrm{K}^2$ with SPT 800~deg$^2$. This used baseline models from Shaw et al.~\cite{Shaw_2010} and Sehgal et al.~\cite{Sehgal_2010} for tSZ. The tSZ power spectrum was $D_{3000}^{\text{tSZ}} = 3.65 \pm 0.69~\mu\mathrm{K}^2$ at 150~GHz. They also constrained $D_{3000}^{\text{tSZ}} + 0.5 D_{3000}^{\text{kSZ}} = 4.15 \pm 0.56~\mu\mathrm{K}^2$ (without tSZ-CIB correlation) and $4.60 \pm 0.63~\mu\mathrm{K}^2$ (with correlation). With correlations, the upper limit on total kSZ was $D_{3000}^{\text{kSZ}} < 6.7~\mu\mathrm{K}^2$ (95\% CL) using a homogeneous kSZ template, and $D_{3000}^{\text{kSZ}} < 5.7~\mu\mathrm{K}^2$ (95\% CL) with a patchy kSZ template from Shaw et al.~2012\cite{Shaw_2012}, who performed a Ma and Fry (2002) style analytic determination of the kSZ signal up to second order, with density power based on HALOFIT. Their model included gas physics, accounting for cooling and star formation mechanisms that bias the halo power and the gas distribution in haloes producing the reionisation kSZ signal ({\color{red}  citations 2 for bias and 1 for Ma and Fry 2002}).
+
+    The second measurement, by Zahn et al.~\cite{Zahn_2012}, used the same SPT 800~deg$^2$ data. They reported a 95\% CL upper limit on the patchy kSZ power spectrum: $D_{3000}^{\text{patchy kSZ}} < 2.1~\mu\mathrm{K}^2$. They also constrained the duration of reionisation (from 20\% to 99\%) to $\Delta z < 4.4$ (95\% CL), with the end-point at $z_{\text{re}} = 7.2$. Using the WMAP7\cite{Larson_2011} value of $\tau = 0.088 \pm 0.014$, they constrained the mid-point of reionisation. These results did not include tSZ-CIB correlations; with correlations, the limits worsen to $D_{3000}^{\text{patchy kSZ}} < 4.9~\mu\mathrm{K}^2$, $\Delta z < 7.9$ (95\% CL), and $z_{\text{re}} = 5.8$.
+
+    In 2013, two ACT team measurements were published: Sievers et al.~\cite{Sievers_2013} and Dunkley et al.~\cite{Dunkley_2013}, both incorporating SPT data. Sievers et al. reported tSZ power $D_{3000}^{\text{tSZ}} = 3.4 \pm 1.4~\mu\mathrm{K}^2$ at 148~GHz. The 95\% CL upper limits for the kSZ power spectrum were $D_{3000}^{\text{kSZ}} < 8.6~\mu\mathrm{K}^2$ (without tSZ-CIB correlations) and $D_{3000}^{\text{kSZ}} < 6.8~\mu\mathrm{K}^2$ (with correlations). This counterintuitive result is not yet understood. WMAP7\cite{Larson_2011} data was also used for kSZ inference. They reported homogeneous kSZ $D_{3000}^{\text{hkSZ}} = 1.5 \pm 0.5~\mu\mathrm{K}^2$; the inputs for this inference are unclear. The total SZ power was estimated as $D_{3000}^{\text{SZ}} = 6.8 \pm 2.9~\mu\mathrm{K}^2$ using the Battaglia et al.~2010 AGN template.
+
+    Dunkley et al. later reported tSZ power at $l \sim 3000$ as $3.3 \pm 1.4~\mu\mathrm{K}^2$ for ACT, $4.1 \pm 0.9~\mu\mathrm{K}^2$ for SPT, and $4.0 \pm 0.9~\mu\mathrm{K}^2$ for ACT+SPT data. The 95\% CL upper limits for the kSZ power spectrum were $D_{3000}^{\text{kSZ}} < 8.6~\mu\mathrm{K}^2$ for ACT, $D_{3000}^{\text{kSZ}} < 6.7~\mu\mathrm{K}^2$ for SPT, and $D_{3000}^{\text{kSZ}} < 5.4~\mu\mathrm{K}^2$ for ACT+SPT, all with tSZ-CIB correlations included.
+
+    In 2014, a Planck observation was reported by \cite{Ade_2013}, with $D_{3000}^{\text{kSZ}} = 5.3^{+2.8}_{-1.9}~\mu\mathrm{K}^2$.
+
+    In 2015, the SPT-SZ team (George et al.~\cite{George_2015}) reported tSZ power $D_{3000}^{\text{tSZ}} = 4.38^{+0.83}_{-1.04}~\mu\mathrm{K}^2$ and a 95\% CL upper limit on the kSZ power spectrum $D_{3000}^{\text{kSZ}} < 5.4~\mu\mathrm{K}^2$, with tSZ-CIB correlations included.
+
+    In 2016, another Planck observation was reported by \cite{Adam_2016}.
+
+    No further measurements were made for five years, until the latest result from the SPT-SZ+Pol team in conjunction with the Herschel SPIRE team, whose kSZ power measurement is now widely cited. 
+    
+    \subsection{Simulations from the literature}
+     
+    \subsubsection{Alvarez 2016}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/Alvarez2016_ksz_fullsky_mollweide.pdf}
+        \caption{Alvarez 2016 kSZ power spectrum from various simulations compared to SPT measurements}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/Alvarez2016_ksz_power_spectrum_final.pdf}
+        \caption{Alvarez 2016 Power spectrum for the map shown above}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/Alvarez2016_ksz_histogram_gaussian_overlay.pdf}
+        \caption{Alvarez 2016 histogram of kSZ temperature anisotropies}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf}
+        \caption{Alvarez 2016 patch of kSZ temperature anisotropies map} 
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/Alvarez2016_patch_Pk.pdf}
+        \caption{Alvarez 2016 ksz power spectrum for the flat patch shown above}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/Alvarez_2016patch_Cl.pdf}
+        \caption{Alvarez 2016 C-ell kSZ for the flat patch shown above}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/Alvarez2016_patch_Dl.pdf}
+        \caption{Alvarez 2016 D-l kSZ for the flat patch shown above}
+     \end{figure}
+     
+     There are caveats in the flat sky D-ells which is mentioned in the jupyter notebook.
+
+    \subsubsection{WebSky Simulations 2020}
+
+     \textbf{kSZ Power Spectrum from WebSky Simulations 2020}\\
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/WebSky_ksz_mollweide.pdf}
+        \caption{WebSky Simulations 2020 kSZ power spectrum}
+     \end{figure}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.5]{Images/WebSky_ksz_histogram_gaussian.pdf}
+            \caption{WebSky Simulations 2020 kSZ power spectrum compared to SPT measurements}
+            \end{figure}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.5]{Images/WebSky_ksz_powerspectrum.pdf}
+            \caption{WebSky Simulations 2020 histogram of kSZ temperature anisotropies}
+            \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/websky_ksz_patchy_mollweide.pdf}
+        \caption{WebSky Simulations 2020 patchy kSZ temperature anisotropies}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/websky_ksz_patchy_histogram_gaussian.pdf}
+        \caption{WebSky Simulations 2020 histogram of patchy kSZ temperature anisotropies}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/websky_ksz_patchy_powerspectrum.pdf}
+        \caption{WebSky Simulations 2020 patchy kSZ power spectrum}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf}
+        \caption{WebSky Simulations 2020 kSZ vs patchy kSZ power spectrum}
+     \end{figure}
+     
+     \textbf{tSZ from WebSky Simulations 2020}\\
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/WebSky_tsz_mollweide.pdf}
+        \caption{WebSky Simulations 2020 D-l kSZ for the flat patch shown above}
+     \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/websky_tsz_histogram.png}
+        \caption{WebSky Simulations 2020 tSZ histogram of temperature anisotropies}
+     \end{figure}
+
+     \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/WebSky_tsz_powerspectrum.pdf}
+        \caption{WebSky Simulations 2020 tSZ power spectrum}
+    \end{figure}
+
+    \textbf{CIB from WebSky Simulations 2020}\\
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/WebSky_cib_225_mollweide.pdf}
+        \caption{WebSky Simulations 2020 CIB temperature anisotropies}
+     \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/WebSky_cib_225_histogram.pdf}
+        \caption{WebSky Simulations 2020 CIB histogram of temperature anisotropies}
+        \end{figure}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.5]{Images/WebSky_cib_225_Cls.pdf}
+            \caption{WebSky Simulations 2020 CIB power spectrum}
+        \end{figure}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.5]{Images/WebSky_cib_225_powerspectrum.pdf}
+            \caption{WebSky Simulations 2020 CIB power spectrum}
+        \end{figure}
+
+\textbf{tSZ-CIB Cross Power Spectrum from WebSky Simulations 2020}\\
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/WebSky_cross_power_native.pdf}
+        \caption{WebSky Simulations 2020 tSZ-CIB cross power spectrum in native units}
+     \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Images/WebSky_cross_power_temperature.pdf}
+        \caption{WebSky Simulations 2020 tSZ-CIB cross power spectrum}
+     \end{figure}
+\section{Theory}
+
+    The kSZ power spectrum can be calculated in two ways: One, with equation 11 by creating maps of temperature anisotropy, which is done in large box-sized and ample-resolution simulations. This method is not stable to these parameters of the simulation, since for smaller boxes and poorer resolution leads to loss of LOS variation information across close directions in the sky, and also accumulated estimation errors along a particular line of sight.
+
+    Instead, a second analytic method is used, which is the redshift integral of a statistic called $P_{q\bot}$. This method is more stable, since you are integrating a statistic and not the sensitive temperature anisotropies. The idea, as highlighted in Appendix A of \cite{Park-et-al2013}, is to break up the temperature anisotropies from the start of your redshift of interest into the spherical harmonic basis, via a spherical harmonic transform, and look at the temperature anisotropy correlation between two different LOS at this stage itself. Then, the two LOS integrals of temperature anisotropy correlation reduce to one integral over $P_{q\bot}$ statistic, with one of the integrals reducing by the delta functions appearing due to the homogeneity and isotropy conditions or the orthogonality of Wigner Rotation matrices {\color{red} Add the Clebsch-Gordan formula and check the Wigner orthogonalisation}. So, in essence, multiple LOS integrals of Doppler anisotropy due to bulk motion of electrons reduce to an integral in the direction of LOS of the $P_{q\bot}$ statistic.
+
+    An interesting way of showing from the above reference \cite{Park-et-al2013} that only the perpendicular component survives was done by \cite{NickKaiser1992}. In the Appendix, he argues that any field whose projection is to be taken on the sky integrated along the line of sight has a power spectrum given by the line-of-sight integral of all the power spectra of the field fluctuations not seeded by the perturbation modes along the LOS. This is done under the assumption that the weight function appearing in the projection varies very slowly (over larger distances) compared to the fluctuation mode wavelengths. This limits the projections to a small portion of the sky (subtending small angles). Another related assumption is that the fluctuations separated by large distances along the LOS are independent. Hence, the LOS is broken into shells where the fluctuations in each shell are statistically independent of even their neighboring shells. And the final power spectrum just becomes an uncorrelated (sum of variance-like) but weighted sum of the Power spectrum of field fluctuations across the shells. 
+
+    As it turns out that the LOS integral of $\mathcal P_{q\parallel}$ falls off as $1/l^2$ \cite{Alvarez2016}and so may be dominant on small $l$s where our assumptions break down. Also, this method may require correcting the power spectrum for the finiteness of the simulation box sizes, which \cite{Park-et-al2013} cite in their Appendix as a linear fluctuation approximation term {\color{red}which needs further research} 
+
+    For analytic calculations of the kSZ power spectrum, where you are not so lucky as to obtain a detailed $<\bar q_\bot(k) \bar q^*_\bot>$ from simulations, you will have to worry about the complete expansion $<x(1+\delta)v . x' (1+\delta')v'> = <xx'vv'> + <xx'vv'\delta\delta'>$ and whether each term can be written as a sum of the Wick's expansion or do the higher order connected term is to be retained\cite{Alvarez2016}. Literature has examples of various teams worrying about various higher-order corrected terms\cite{RodriguezKusiakPAndeyHill2025Preprint}. But they are important to capture which terms affect the kSZ power spectra the most.
+
+    
+    \subsection{the tsz, CIB, ksz and tsz-CIB power spectrum}
+    
+\section{Methods 21cmFAST}
+
+\subsection{ksz power spectrum via P-q-perpendicular}
+
+    We proceed to show how to calculate the kSZ power spectrum from the 21cmFAST seminumerical simulation using the Line of Sight integral of the $\mathcal P_{q\bot}$ statistic. 21cmFAST gives you a comoving box of density fluctuations, velocity field and ionisation morphology within the box at each redshift.{\color{red}How?} From those, you may calculate the momentum field, given as:
+    \begin{equation}
+        \bar q = (1 + \delta_m)(1+\delta_x)\bar v
+    \end{equation}
+    where $\delta_m = \frac{\rho_m - \bar \rho_m}{\bar \rho_m}$, i.e, the fluctuations in the matter density relative to its mean, similarly, the $\delta_x$ is the fluctuations in the ionisation field and $\bar v$ is the velocity field, which is output in km/s, which we convert to cm/s. The above scalar fields were unitless.
+
+    With this, you have a composite field called the momentum field for a representative box or portion of your simulated universe. Now, a Fourier transform of this momentum field is obtained using FFT algorithms of the numpy package. For each component of the momentum field $q_j$, a Fourier transform is taken, called $Q_j$, using the np.fft.fftn function. This quantity has units cm/s $Mpc^3$. Now we need the k-vectors of the perturbation modes, perpendicular to which we intend to project our $\bar Q$. To this end np.fft.fftfreq(comoving coordinate space grid) was done which just converts for x axis say a grid of the form $[0, d, 2d, 3d,, Nd]$ in comoving coordinate space throughout the length of the axis to a grid in the k-space in the the range  $[-n\pi/d,n\pi/d]$ for $n\in [0, ~N/2 ~\text{or} (N-1)/2]$  for even or odd $N=L/d$, as the case may be. This grid is turned into $\bar k$ by taking all possible combinations of $\{k_x, k_y, k_z\}$ from the above k-grid. With all the $\bar k$ in hand, your $\bar Q$ is projected component wise into $\bar Q_\bot = \bar Q - (\bar k .Q)\frac{\bar k}{k^2}$.
+
+    To calculate the power $\mathcal P_{q_\bot}(|\bar k|)$, small spherical shells around the sphere of radius $|\bar k|$ are considered, and that shell is broken into bins. We bifurcate each shell into $O(N^{1/3})$, i.e., of the order of the number of pixels along each axis. Then an average over all the bins is taken, which gives the Power at each k mode.
+    Even though the power only comprises of sum over two modes:
+    \begin{equation}
+        \mathcal P_k(Q) (2\pi)^3 \delta_D (\bar k + \bar k') = \langle Q(\bar k)Q(\bar k')\rangle 
+    \end{equation}
+
+    The average is supposed to be over all the realisations of the universe for the two collinear modes. But for a single realisation, the sum over two modes translates into a sum over all the modes with the same modulus when statistical isotropy of the universe is considered. The units of the power spectrum are $(cm/s)^2 Mpc^3$.  Then we also plot the standard deviation associated with this mean. 
+
+    With the quantity $P_{q\bot}$, the only quantity that remains is the angular power spectrum, which comes from the LOS integral of this statistic. The optical depth is calculated as the integral $\int_0^\eta a(\eta')\text d\chi' n_e(\chi') \sigma_T $ where the quantity $n_e(\chi') = \bar n_e (1+ x_e) $ and the corresponding ionisation fraction $x_e$ was calculated as the ratio of all the ionised cells in a comoving box of 21cmFAST at a particular redshift with the total number of cells.  
+
+    The background cosmology was derived from astropy.cosmology, so we should check if the 21cmFAST simulations make those available. $C_l$s are unitless. They are converted into $D_l$ by multiplying them with the factor $\frac{l(l+1)}{2\pi} \times \{T_{CMB} =2.7325
+    ^2\times 10^6 \mu K^2\}$
+
+    We display the results for a simulation box of size $200 Mpc$ and a grid of $64^3$. The expected order of magnitude of $D_l$ is $O(1) \mu K^2$. This makes 
+
+\subsubsection{Effect of varying the reionisation history}
+
+\subsubsection{Effect of varying Box Size and Resolution}
+
+\begin{multicols}{2}
+\bibliography{References}
+\end{multicols}
+
+\end{document}
