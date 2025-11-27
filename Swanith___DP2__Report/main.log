@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.11.26)  6 NOV 2025 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.11.26)  27 NOV 2025 07:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -424,7 +424,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
- (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -436,206 +435,778 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/kSZ_SED.pdf, id=24, 505.89pt x 361.35pt>
-File: Images/kSZ_SED.pdf Graphic file (type pdf)
-<use Images/kSZ_SED.pdf>
-Package pdftex.def Info: Images/kSZ_SED.pdf  used on input line 44.
+<Images/Misc/kSZ_SED.pdf, id=4, 505.89pt x 361.35pt>
+File: Images/Misc/kSZ_SED.pdf Graphic file (type pdf)
+<use Images/Misc/kSZ_SED.pdf>
+Package pdftex.def Info: Images/Misc/kSZ_SED.pdf  used on input line 44.
 (pdftex.def)             Requested size: 202.3524pt x 144.53743pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/kSZ_SED.pdf>] [2] [3]
-<Images/MaFry.png, id=124, 481.8pt x 596.2275pt>
-File: Images/MaFry.png Graphic file (type png)
-<use Images/MaFry.png>
-Package pdftex.def Info: Images/MaFry.png  used on input line 137.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/Misc/kSZ_SED.pdf>] [2]
+
+Package natbib Warning: Citation `Birkinshaw1999' on page 3 undefined on input line 98.
+
+[3]
+<Images/Misc/MaFry.png, id=105, 481.8pt x 596.2275pt>
+File: Images/Misc/MaFry.png Graphic file (type png)
+<use Images/Misc/MaFry.png>
+Package pdftex.def Info: Images/Misc/MaFry.png  used on input line 137.
 (pdftex.def)             Requested size: 240.8994pt x 298.11302pt.
 
 Overfull \hbox (11.69678pt too wide) in paragraph at lines 142--143
 \OT1/cmr/m/n/10.95 printed on the Last Scat-ter-ing Sur-faces. These fore-grounds are called Sec-ondary CMB anisotropies.
  []
 
-[4 <./Images/MaFry.png>]
-<Images/total_SZ_or_combo.pdf, id=133, 867.24pt x 433.62pt>
-File: Images/total_SZ_or_combo.pdf Graphic file (type pdf)
-<use Images/total_SZ_or_combo.pdf>
-Package pdftex.def Info: Images/total_SZ_or_combo.pdf  used on input line 157.
+[4 <./Images/Misc/MaFry.png>]
+<Images/Measurements/total_SZ_or_combo.pdf, id=114, 867.24pt x 433.62pt>
+File: Images/Measurements/total_SZ_or_combo.pdf Graphic file (type pdf)
+<use Images/Measurements/total_SZ_or_combo.pdf>
+Package pdftex.def Info: Images/Measurements/total_SZ_or_combo.pdf  used on input line 157.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
-<Images/patchy_homogeneous_kSZ.pdf, id=134, 867.24pt x 433.62pt>
-File: Images/patchy_homogeneous_kSZ.pdf Graphic file (type pdf)
-<use Images/patchy_homogeneous_kSZ.pdf>
-Package pdftex.def Info: Images/patchy_homogeneous_kSZ.pdf  used on input line 165.
+<Images/Measurements/patchy_homogeneous_kSZ.pdf, id=115, 867.24pt x 433.62pt>
+File: Images/Measurements/patchy_homogeneous_kSZ.pdf Graphic file (type pdf)
+<use Images/Measurements/patchy_homogeneous_kSZ.pdf>
+Package pdftex.def Info: Images/Measurements/patchy_homogeneous_kSZ.pdf  used on input line 165.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
-<Images/tSZ_measurements.pdf, id=135, 867.24pt x 433.62pt>
-File: Images/tSZ_measurements.pdf Graphic file (type pdf)
-<use Images/tSZ_measurements.pdf>
-Package pdftex.def Info: Images/tSZ_measurements.pdf  used on input line 173.
+<Images/Measurements/tSZ_measurements.pdf, id=116, 867.24pt x 433.62pt>
+File: Images/Measurements/tSZ_measurements.pdf Graphic file (type pdf)
+<use Images/Measurements/tSZ_measurements.pdf>
+Package pdftex.def Info: Images/Measurements/tSZ_measurements.pdf  used on input line 173.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
- [5 <./Images/total_SZ_or_combo.pdf> <./Images/patchy_homogeneous_kSZ.pdf>]
-Overfull \hbox (4.25185pt too wide) in paragraph at lines 181--182
-[]\OT1/cmr/m/n/10.95 The first mea-sure-ment was per-formed by the SPT team and re-ported by Lueker et al. 2010[[]].
- []
+ [5 <./Images/Measurements/total_SZ_or_combo.pdf> <./Images/Measurements/patchy_homogeneous_kSZ.pdf>]
 
-[6 <./Images/tSZ_measurements.pdf>]
-<Images/Alvarez2016_ksz_fullsky_mollweide.pdf, id=364, 894.65964pt x 533.9651pt>
-File: Images/Alvarez2016_ksz_fullsky_mollweide.pdf Graphic file (type pdf)
-<use Images/Alvarez2016_ksz_fullsky_mollweide.pdf>
-Package pdftex.def Info: Images/Alvarez2016_ksz_fullsky_mollweide.pdf  used on input line 210.
+LaTeX Warning: Reference `kSZ_Measurements' on page 6 undefined on input line 179.
+
+
+Package natbib Warning: Citation `Lueker_2010' on page 6 undefined on input line 181.
+
+
+Package natbib Warning: Citation `BensonBA_2013' on page 6 undefined on input line 181.
+
+
+Package natbib Warning: Citation `Hall_2010' on page 6 undefined on input line 183.
+
+
+Package natbib Warning: Citation `Dunkley_2011' on page 6 undefined on input line 185.
+
+
+Package natbib Warning: Citation `Shirkoff_2011' on page 6 undefined on input line 187.
+
+
+Package natbib Warning: Citation `Reichardt_2012' on page 6 undefined on input line 189.
+
+
+Package natbib Warning: Citation `Shaw_2010' on page 6 undefined on input line 189.
+
+
+Package natbib Warning: Citation `Sehgal_2010' on page 6 undefined on input line 189.
+
+
+Package natbib Warning: Citation `Shaw_2012' on page 6 undefined on input line 189.
+
+[6 <./Images/Measurements/tSZ_measurements.pdf>]
+
+Package natbib Warning: Citation `Zahn_2012' on page 7 undefined on input line 191.
+
+
+Package natbib Warning: Citation `Larson_2011' on page 7 undefined on input line 191.
+
+
+Package natbib Warning: Citation `Sievers_2013' on page 7 undefined on input line 193.
+
+
+Package natbib Warning: Citation `Dunkley_2013' on page 7 undefined on input line 193.
+
+
+Package natbib Warning: Citation `Larson_2011' on page 7 undefined on input line 193.
+
+
+Package natbib Warning: Citation `Ade_2013' on page 7 undefined on input line 197.
+
+
+Package natbib Warning: Citation `George_2015' on page 7 undefined on input line 199.
+
+
+Package natbib Warning: Citation `Adam_2016' on page 7 undefined on input line 201.
+
+<Images/Literature_Maps/Alvarez2016_ksz_fullsky_mollweide.pdf, id=320, 894.65964pt x 533.9651pt>
+File: Images/Literature_Maps/Alvarez2016_ksz_fullsky_mollweide.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/Alvarez2016_ksz_fullsky_mollweide.pdf>
+Package pdftex.def Info: Images/Literature_Maps/Alvarez2016_ksz_fullsky_mollweide.pdf  used on input line 210.
 (pdftex.def)             Requested size: 447.32872pt x 266.98189pt.
- [7]
-<Images/Alvarez2016_ksz_power_spectrum_final.pdf, id=379, 748.6262pt x 462.61269pt>
-File: Images/Alvarez2016_ksz_power_spectrum_final.pdf Graphic file (type pdf)
-<use Images/Alvarez2016_ksz_power_spectrum_final.pdf>
-Package pdftex.def Info: Images/Alvarez2016_ksz_power_spectrum_final.pdf  used on input line 216.
+[7]
+<Images/Literature_Maps/Alvarez2016_ksz_power_spectrum_final.pdf, id=326, 748.6262pt x 462.61269pt>
+File: Images/Literature_Maps/Alvarez2016_ksz_power_spectrum_final.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/Alvarez2016_ksz_power_spectrum_final.pdf>
+Package pdftex.def Info: Images/Literature_Maps/Alvarez2016_ksz_power_spectrum_final.pdf  used on input line 216.
 (pdftex.def)             Requested size: 374.31218pt x 231.30577pt.
-<Images/Alvarez2016_ksz_histogram_gaussian_overlay.pdf, id=380, 716.4874pt x 427.5975pt>
-File: Images/Alvarez2016_ksz_histogram_gaussian_overlay.pdf Graphic file (type pdf)
-<use Images/Alvarez2016_ksz_histogram_gaussian_overlay.pdf>
-Package pdftex.def Info: Images/Alvarez2016_ksz_histogram_gaussian_overlay.pdf  used on input line 222.
+<Images/Literature_Maps/Alvarez2016_ksz_histogram_gaussian_overlay.pdf, id=327, 716.4874pt x 427.5975pt>
+File: Images/Literature_Maps/Alvarez2016_ksz_histogram_gaussian_overlay.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/Alvarez2016_ksz_histogram_gaussian_overlay.pdf>
+Package pdftex.def Info: Images/Literature_Maps/Alvarez2016_ksz_histogram_gaussian_overlay.pdf  used on input line 222.
 (pdftex.def)             Requested size: 358.24281pt x 213.79822pt.
- [8 <./Images/Alvarez2016_ksz_fullsky_mollweide.pdf> <./Images/Alvarez2016_ksz_power_spectrum_final.pdf>]
-<Images/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf, id=446, 528.07254pt x 588.60693pt>
-File: Images/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf Graphic file (type pdf)
-<use Images/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf>
-Package pdftex.def Info: Images/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf  used on input line 228.
+ [8 <./Images/Literature_Maps/Alvarez2016_ksz_fullsky_mollweide.pdf> <./Images/Literature_Maps/Alvarez2016_ksz_power_spectrum_final.pdf>]
+<Images/Literature_Maps/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf, id=392, 528.07254pt x 588.60693pt>
+File: Images/Literature_Maps/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf>
+Package pdftex.def Info: Images/Literature_Maps/Alvarez2016_ksz_patch_RA180.0_Dec0.0.pdf  used on input line 228.
 (pdftex.def)             Requested size: 264.03561pt x 294.30275pt.
-<Images/Alvarez2016_patch_Pk.pdf, id=447, 714.02127pt x 422.20937pt>
-File: Images/Alvarez2016_patch_Pk.pdf Graphic file (type pdf)
-<use Images/Alvarez2016_patch_Pk.pdf>
-Package pdftex.def Info: Images/Alvarez2016_patch_Pk.pdf  used on input line 234.
+<Images/Literature_Maps/Alvarez2016_patch_Pk.pdf, id=393, 714.02127pt x 422.20937pt>
+File: Images/Literature_Maps/Alvarez2016_patch_Pk.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/Alvarez2016_patch_Pk.pdf>
+Package pdftex.def Info: Images/Literature_Maps/Alvarez2016_patch_Pk.pdf  used on input line 234.
 (pdftex.def)             Requested size: 357.00975pt x 211.10416pt.
- [9 <./Images/Alvarez2016_ksz_histogram_gaussian_overlay.pdf> <./Images/ALvarez2016_ksz_patch_RA180.0_Dec0.0.pdf>]
-<Images/Alvarez_2016patch_Cl.pdf, id=548, 713.84055pt x 423.23721pt>
-File: Images/Alvarez_2016patch_Cl.pdf Graphic file (type pdf)
-<use Images/Alvarez_2016patch_Cl.pdf>
-Package pdftex.def Info: Images/Alvarez_2016patch_Cl.pdf  used on input line 240.
+ [9 <./Images/Literature_Maps/Alvarez2016_ksz_histogram_gaussian_overlay.pdf> <./Images/Literature_Maps/ALvarez2016_ksz_patch_RA180.0_Dec0.0.pdf>]
+<Images/Literature_Maps/Alvarez_2016patch_Cl.pdf, id=495, 713.84055pt x 423.23721pt>
+File: Images/Literature_Maps/Alvarez_2016patch_Cl.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/Alvarez_2016patch_Cl.pdf>
+Package pdftex.def Info: Images/Literature_Maps/Alvarez_2016patch_Cl.pdf  used on input line 240.
 (pdftex.def)             Requested size: 356.9194pt x 211.61807pt.
-<Images/Alvarez2016_patch_Dl.pdf, id=549, 714.65591pt x 423.23721pt>
-File: Images/Alvarez2016_patch_Dl.pdf Graphic file (type pdf)
-<use Images/Alvarez2016_patch_Dl.pdf>
-Package pdftex.def Info: Images/Alvarez2016_patch_Dl.pdf  used on input line 246.
+<Images/Literature_Maps/Alvarez2016_patch_Dl.pdf, id=496, 714.65591pt x 423.23721pt>
+File: Images/Literature_Maps/Alvarez2016_patch_Dl.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/Alvarez2016_patch_Dl.pdf>
+Package pdftex.def Info: Images/Literature_Maps/Alvarez2016_patch_Dl.pdf  used on input line 246.
 (pdftex.def)             Requested size: 357.32709pt x 211.61807pt.
- [10 <./Images/ALvarez2016_patch_Pk.pdf> <./Images/Alvarez_2016patch_Cl.pdf>]
+ [10 <./Images/Literature_Maps/ALvarez2016_patch_Pk.pdf> <./Images/Literature_Maps/Alvarez_2016patch_Cl.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
-<Images/WebSky_ksz_mollweide.pdf, id=640, 604.17719pt x 380.93167pt>
-File: Images/WebSky_ksz_mollweide.pdf Graphic file (type pdf)
-<use Images/WebSky_ksz_mollweide.pdf>
-Package pdftex.def Info: Images/WebSky_ksz_mollweide.pdf  used on input line 258.
+<Images/Literature_Maps/WebSky_ksz_mollweide.pdf, id=587, 604.17719pt x 380.93167pt>
+File: Images/Literature_Maps/WebSky_ksz_mollweide.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_ksz_mollweide.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_ksz_mollweide.pdf  used on input line 258.
 (pdftex.def)             Requested size: 302.08784pt x 190.46536pt.
-<Images/WebSky_ksz_histogram_gaussian.pdf, id=641, 716.4874pt x 427.5975pt>
-File: Images/WebSky_ksz_histogram_gaussian.pdf Graphic file (type pdf)
-<use Images/WebSky_ksz_histogram_gaussian.pdf>
-Package pdftex.def Info: Images/WebSky_ksz_histogram_gaussian.pdf  used on input line 264.
+<Images/Literature_Maps/WebSky_ksz_histogram_gaussian.pdf, id=588, 716.4874pt x 427.5975pt>
+File: Images/Literature_Maps/WebSky_ksz_histogram_gaussian.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_ksz_histogram_gaussian.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_ksz_histogram_gaussian.pdf  used on input line 264.
 (pdftex.def)             Requested size: 358.24281pt x 213.79822pt.
-[11 <./Images/Alvarez2016_patch_Dl.pdf> <./Images/WebSky_ksz_mollweide.pdf>]
-<Images/WebSky_ksz_powerspectrum.pdf, id=723, 712.7481pt x 496.37735pt>
-File: Images/WebSky_ksz_powerspectrum.pdf Graphic file (type pdf)
-<use Images/WebSky_ksz_powerspectrum.pdf>
-Package pdftex.def Info: Images/WebSky_ksz_powerspectrum.pdf  used on input line 270.
+[11 <./Images/Literature_Maps/Alvarez2016_patch_Dl.pdf> <./Images/Literature_Maps/WebSky_ksz_mollweide.pdf>]
+<Images/Literature_Maps/WebSky_ksz_powerspectrum.pdf, id=670, 712.7481pt x 496.37735pt>
+File: Images/Literature_Maps/WebSky_ksz_powerspectrum.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_ksz_powerspectrum.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_ksz_powerspectrum.pdf  used on input line 270.
 (pdftex.def)             Requested size: 356.37317pt x 248.18806pt.
-<Images/websky_ksz_patchy_mollweide.pdf, id=724, 604.17719pt x 369.49834pt>
-File: Images/websky_ksz_patchy_mollweide.pdf Graphic file (type pdf)
-<use Images/websky_ksz_patchy_mollweide.pdf>
-Package pdftex.def Info: Images/websky_ksz_patchy_mollweide.pdf  used on input line 276.
+<Images/Literature_Maps/websky_ksz_patchy_mollweide.pdf, id=671, 604.17719pt x 369.49834pt>
+File: Images/Literature_Maps/websky_ksz_patchy_mollweide.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/websky_ksz_patchy_mollweide.pdf>
+Package pdftex.def Info: Images/Literature_Maps/websky_ksz_patchy_mollweide.pdf  used on input line 276.
 (pdftex.def)             Requested size: 302.08784pt x 184.7487pt.
- [12 <./Images/WebSky_ksz_histogram_gaussian.pdf> <./Images/WebSky_ksz_powerspectrum.pdf>]
-<Images/websky_ksz_patchy_histogram_gaussian.pdf, id=817, 716.4874pt x 427.5975pt>
-File: Images/websky_ksz_patchy_histogram_gaussian.pdf Graphic file (type pdf)
-<use Images/websky_ksz_patchy_histogram_gaussian.pdf>
-Package pdftex.def Info: Images/websky_ksz_patchy_histogram_gaussian.pdf  used on input line 282.
+ [12 <./Images/Literature_Maps/WebSky_ksz_histogram_gaussian.pdf> <./Images/Literature_Maps/WebSky_ksz_powerspectrum.pdf>]
+<Images/Literature_Maps/websky_ksz_patchy_histogram_gaussian.pdf, id=763, 716.4874pt x 427.5975pt>
+File: Images/Literature_Maps/websky_ksz_patchy_histogram_gaussian.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/websky_ksz_patchy_histogram_gaussian.pdf>
+Package pdftex.def Info: Images/Literature_Maps/websky_ksz_patchy_histogram_gaussian.pdf  used on input line 282.
 (pdftex.def)             Requested size: 358.24281pt x 213.79822pt.
-<Images/websky_ksz_patchy_powerspectrum.pdf, id=818, 715.13162pt x 497.20242pt>
-File: Images/websky_ksz_patchy_powerspectrum.pdf Graphic file (type pdf)
-<use Images/websky_ksz_patchy_powerspectrum.pdf>
-Package pdftex.def Info: Images/websky_ksz_patchy_powerspectrum.pdf  used on input line 288.
+<Images/Literature_Maps/websky_ksz_patchy_powerspectrum.pdf, id=764, 715.13162pt x 497.20242pt>
+File: Images/Literature_Maps/websky_ksz_patchy_powerspectrum.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/websky_ksz_patchy_powerspectrum.pdf>
+Package pdftex.def Info: Images/Literature_Maps/websky_ksz_patchy_powerspectrum.pdf  used on input line 288.
 (pdftex.def)             Requested size: 357.56493pt x 248.6006pt.
- [13 <./Images/websky_ksz_patchy_mollweide.pdf> <./Images/websky_ksz_patchy_histogram_gaussian.pdf>]
-<Images/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf, id=907, 715.41277pt x 497.53166pt>
-File: Images/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf Graphic file (type pdf)
-<use Images/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf>
-Package pdftex.def Info: Images/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf  used on input line 294.
+ [13 <./Images/Literature_Maps/websky_ksz_patchy_mollweide.pdf> <./Images/Literature_Maps/websky_ksz_patchy_histogram_gaussian.pdf>]
+<Images/Literature_Maps/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf, id=853, 715.41277pt x 497.53166pt>
+File: Images/Literature_Maps/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf  used on input line 294.
 (pdftex.def)             Requested size: 357.7055pt x 248.76521pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
-<Images/WebSky_tsz_mollweide.pdf, id=908, 604.17719pt x 365.62448pt>
-File: Images/WebSky_tsz_mollweide.pdf Graphic file (type pdf)
-<use Images/WebSky_tsz_mollweide.pdf>
-Package pdftex.def Info: Images/WebSky_tsz_mollweide.pdf  used on input line 302.
+<Images/Literature_Maps/WebSky_tsz_mollweide.pdf, id=854, 604.17719pt x 365.62448pt>
+File: Images/Literature_Maps/WebSky_tsz_mollweide.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_tsz_mollweide.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_tsz_mollweide.pdf  used on input line 302.
 (pdftex.def)             Requested size: 302.08784pt x 182.81178pt.
-[14 <./Images/websky_ksz_patchy_powerspectrum.pdf> <./Images/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf>]
-<Images/websky_tsz_histogram.png, id=993, 715.11165pt x 426.03165pt>
-File: Images/websky_tsz_histogram.png Graphic file (type png)
-<use Images/websky_tsz_histogram.png>
-Package pdftex.def Info: Images/websky_tsz_histogram.png  used on input line 308.
+[14 <./Images/Literature_Maps/websky_ksz_patchy_powerspectrum.pdf> <./Images/Literature_Maps/WebSky_ksz_vs_ksz_patchy_powerspectrum.pdf>]
+<Images/Literature_Maps/websky_tsz_histogram.png, id=940, 715.11165pt x 426.03165pt>
+File: Images/Literature_Maps/websky_tsz_histogram.png Graphic file (type png)
+<use Images/Literature_Maps/websky_tsz_histogram.png>
+Package pdftex.def Info: Images/Literature_Maps/websky_tsz_histogram.png  used on input line 308.
 (pdftex.def)             Requested size: 357.55495pt x 213.0153pt.
-<Images/WebSky_tsz_powerspectrum.pdf, id=994, 715.47299pt x 498.663pt>
-File: Images/WebSky_tsz_powerspectrum.pdf Graphic file (type pdf)
-<use Images/WebSky_tsz_powerspectrum.pdf>
-Package pdftex.def Info: Images/WebSky_tsz_powerspectrum.pdf  used on input line 314.
+<Images/Literature_Maps/WebSky_tsz_powerspectrum.pdf, id=941, 715.47299pt x 498.663pt>
+File: Images/Literature_Maps/WebSky_tsz_powerspectrum.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_tsz_powerspectrum.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_tsz_powerspectrum.pdf  used on input line 314.
 (pdftex.def)             Requested size: 357.73563pt x 249.33089pt.
- [15 <./Images/WebSky_tsz_mollweide.pdf> <./Images/websky_tsz_histogram.png>]
+ [15 <./Images/Literature_Maps/WebSky_tsz_mollweide.pdf> <./Images/Literature_Maps/websky_tsz_histogram.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
-<Images/WebSky_cib_225_mollweide.pdf, id=1041, 604.17719pt x 380.93167pt>
-File: Images/WebSky_cib_225_mollweide.pdf Graphic file (type pdf)
-<use Images/WebSky_cib_225_mollweide.pdf>
-Package pdftex.def Info: Images/WebSky_cib_225_mollweide.pdf  used on input line 322.
+<Images/Literature_Maps/WebSky_cib_225_mollweide.pdf, id=988, 604.17719pt x 380.93167pt>
+File: Images/Literature_Maps/WebSky_cib_225_mollweide.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_cib_225_mollweide.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_cib_225_mollweide.pdf  used on input line 322.
 (pdftex.def)             Requested size: 302.08784pt x 190.46536pt.
-<Images/WebSky_cib_225_histogram.pdf, id=1042, 718.06543pt x 426.45422pt>
-File: Images/WebSky_cib_225_histogram.pdf Graphic file (type pdf)
-<use Images/WebSky_cib_225_histogram.pdf>
-Package pdftex.def Info: Images/WebSky_cib_225_histogram.pdf  used on input line 328.
+<Images/Literature_Maps/WebSky_cib_225_histogram.pdf, id=989, 718.06543pt x 426.45422pt>
+File: Images/Literature_Maps/WebSky_cib_225_histogram.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_cib_225_histogram.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_cib_225_histogram.pdf  used on input line 328.
 (pdftex.def)             Requested size: 359.03183pt x 213.22658pt.
-[16 <./Images/websky_tsz_powerspectrum.pdf> <./Images/WebSky_cib_225_mollweide.pdf>]
-<Images/WebSky_cib_225_Cls.pdf, id=1121, 716.3161pt x 495.37234pt>
-File: Images/WebSky_cib_225_Cls.pdf Graphic file (type pdf)
-<use Images/WebSky_cib_225_Cls.pdf>
-Package pdftex.def Info: Images/WebSky_cib_225_Cls.pdf  used on input line 334.
+[16 <./Images/Literature_Maps/websky_tsz_powerspectrum.pdf> <./Images/Literature_Maps/WebSky_cib_225_mollweide.pdf>]
+<Images/Literature_Maps/WebSky_cib_225_Cls.pdf, id=1068, 716.3161pt x 495.37234pt>
+File: Images/Literature_Maps/WebSky_cib_225_Cls.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_cib_225_Cls.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_cib_225_Cls.pdf  used on input line 334.
 (pdftex.def)             Requested size: 358.15717pt x 247.68556pt.
-<Images/WebSky_cib_225_powerspectrum.pdf, id=1122, 714.86838pt x 495.37234pt>
-File: Images/WebSky_cib_225_powerspectrum.pdf Graphic file (type pdf)
-<use Images/WebSky_cib_225_powerspectrum.pdf>
-Package pdftex.def Info: Images/WebSky_cib_225_powerspectrum.pdf  used on input line 340.
+<Images/Literature_Maps/WebSky_cib_225_powerspectrum.pdf, id=1069, 714.86838pt x 495.37234pt>
+File: Images/Literature_Maps/WebSky_cib_225_powerspectrum.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_cib_225_powerspectrum.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_cib_225_powerspectrum.pdf  used on input line 340.
 (pdftex.def)             Requested size: 357.43332pt x 247.68556pt.
- [17 <./Images/WebSky_cib_225_histogram.pdf> <./Images/WebSky_cib_225_Cls.pdf>]
+ [17 <./Images/Literature_Maps/WebSky_cib_225_histogram.pdf> <./Images/Literature_Maps/WebSky_cib_225_Cls.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-<Images/WebSky_cross_power_native.pdf, id=1230, 714.44339pt x 495.17798pt>
-File: Images/WebSky_cross_power_native.pdf Graphic file (type pdf)
-<use Images/WebSky_cross_power_native.pdf>
-Package pdftex.def Info: Images/WebSky_cross_power_native.pdf  used on input line 348.
+<Images/Literature_Maps/WebSky_cross_power_native.pdf, id=1176, 714.44339pt x 495.17798pt>
+File: Images/Literature_Maps/WebSky_cross_power_native.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_cross_power_native.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_cross_power_native.pdf  used on input line 348.
 (pdftex.def)             Requested size: 357.22083pt x 247.58838pt.
-<Images/WebSky_cross_power_temperature.pdf, id=1231, 715.59105pt x 495.50722pt>
-File: Images/WebSky_cross_power_temperature.pdf Graphic file (type pdf)
-<use Images/WebSky_cross_power_temperature.pdf>
-Package pdftex.def Info: Images/WebSky_cross_power_temperature.pdf  used on input line 354.
+<Images/Literature_Maps/WebSky_cross_power_temperature.pdf, id=1177, 715.59105pt x 495.50722pt>
+File: Images/Literature_Maps/WebSky_cross_power_temperature.pdf Graphic file (type pdf)
+<use Images/Literature_Maps/WebSky_cross_power_temperature.pdf>
+Package pdftex.def Info: Images/Literature_Maps/WebSky_cross_power_temperature.pdf  used on input line 354.
 (pdftex.def)             Requested size: 357.79465pt x 247.75299pt.
-[18 <./Images/WebSky_cib_225_powerspectrum.pdf> <./Images/WebSky_cross_power_native.pdf>] [19 <./Images/WebSky_cross_power_temperature.pdf>] [20] (./main.bbl) [21] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AE48B3B9354286FCDD497FE3E5444E99;516.
+[18 <./Images/Literature_Maps/WebSky_cib_225_powerspectrum.pdf> <./Images/Literature_Maps/WebSky_cross_power_native.pdf>]
+
+Package natbib Warning: Citation `Park-et-al2013' on page 19 undefined on input line 362.
+
+
+Package natbib Warning: Citation `Park-et-al2013' on page 19 undefined on input line 364.
+
+
+Package natbib Warning: Citation `NickKaiser1992' on page 19 undefined on input line 364.
+
+
+Package natbib Warning: Citation `Alvarez2016' on page 19 undefined on input line 366.
+
+
+Package natbib Warning: Citation `Park-et-al2013' on page 19 undefined on input line 366.
+
+[19 <./Images/Literature_Maps/WebSky_cross_power_temperature.pdf>]
+
+Package natbib Warning: Citation `Alvarez2016' on page 20 undefined on input line 368.
+
+
+Package natbib Warning: Citation `RodriguezKusiakPAndeyHill2025Preprint' on page 20 undefined on input line 368.
+
+
+Package natbib Warning: Citation `Mesigner-et-al2011' on page 20 undefined on input line 377.
+
+
+Package natbib Warning: Citation `Park-et-al2013' on page 20 undefined on input line 377.
+
+<Images/21cmFAST_P_q_perp_28thNov/xe_z12.0_HIIeff_50p0.pdf, id=1346, 463.57536pt x 385.72044pt>
+File: Images/21cmFAST_P_q_perp_28thNov/xe_z12.0_HIIeff_50p0.pdf Graphic file (type pdf)
+<use Images/21cmFAST_P_q_perp_28thNov/xe_z12.0_HIIeff_50p0.pdf>
+Package pdftex.def Info: Images/21cmFAST_P_q_perp_28thNov/xe_z12.0_HIIeff_50p0.pdf  used on input line 388.
+(pdftex.def)             Requested size: 231.78711pt x 192.85974pt.
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\text@ ...e {\textdef@ \displaystyle \f@size {#1}}
+                                                  {\textdef@ \textstyle \f@s...
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\text@ ...xtstyle \f@size {\firstchoice@false #1}}
+                                                  {\textdef@ \textstyle \sf@...
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\text@ ...tstyle \sf@size {\firstchoice@false #1}}
+                                                  {\textdef@ \textstyle \ssf...
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\text@ ...style \ssf@size {\firstchoice@false #1}}
+                                                  \check@mathfonts }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Display math should end with $$.
+<to be read again> 
+                   \protect 
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing $ inserted.
+<inserted text> 
+                $
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+                                 
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/swanith/Desktop/Project2/Report/Swanith___DP2__Report/main.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ... parameter $\text{HII_EFF_FACTOR} = 50$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[20 <./Images/21cmFAST_P_q_perp_28thNov/xe_z12.0_HIIeff_50p0.pdf>] (./main.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[21] (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  AE48B3B9354286FCDD497FE3E5444E99;516.
  ) 
 Here is how much of TeX's memory you used:
- 11061 strings out of 480171
- 176815 string characters out of 5894488
- 473683 words of memory out of 5000000
- 28725 multiletter control sequences out of 15000+600000
+ 11067 strings out of 480171
+ 179850 string characters out of 5894488
+ 471069 words of memory out of 5000000
+ 28728 multiletter control sequences out of 15000+600000
  478472 words of font info for 63 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  60i,20n,63p,1397b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (21 pages, 6398694 bytes).
+Output written on main.pdf (21 pages, 6450670 bytes).
 PDF statistics:
- 1570 PDF objects out of 1728 (max. 8388607)
- 536 compressed objects within 6 object streams
- 97 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1577 PDF objects out of 1728 (max. 8388607)
+ 511 compressed objects within 6 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
